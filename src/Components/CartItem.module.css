@@ -1,0 +1,25 @@
+.itemContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: .5px rgba(0, 0, 0, 0.151) solid;
+    border-left:none ;
+    border-right:none ;
+    display: flex;
+    justify-content: space-between;
+}
+.imgContainer {
+    width: 20%;
+}
+.imgContainer img {
+    width: 100%;
+}
+.title {
+    width: 50%;
+}
+.control {
+    width: 20%;
+}
+.control button {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}

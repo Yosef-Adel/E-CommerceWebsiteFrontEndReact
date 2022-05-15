@@ -1,0 +1,61 @@
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align:left;
+
+}
+.all {
+  text-align: center;
+  min-height: 60vh;
+}
+.btn{
+  margin: auto;
+  height: 50px;
+  margin-top:20px;
+  margin-bottom:20px;
+  width: 70%;
+  display: block;
+  
+}
+  
+  .container label{ 
+    display: block;
+    text-align: left;
+    color: #0b0e2e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .container span {
+    display: block;
+    text-align: left;
+    color: red;
+  }
+  
+  .title{
+    border-radius: 10px;
+    padding: 15px;
+    border: #1e29a1 solid;
+  }
+  
+  .paragraph {
+    border-radius: 10px;
+    padding: 15px;
+    border: #1e29a1 solid;
+    width: 100%;
+  }
+  
+  .products {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .container Button {
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   width: 50%;
+   height: 60px;
+  }

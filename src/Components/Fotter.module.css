@@ -1,0 +1,18 @@
+.Fotter {
+    background-color: #173667;
+    color: white;
+    padding: 30px;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.contact a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+.data h5 {
+    margin-bottom: 20px;
+}

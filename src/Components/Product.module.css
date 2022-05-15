@@ -1,0 +1,20 @@
+.product {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.img img {
+    width: 100%;
+}
+
+.option button {
+    background: linear-gradient(
+        90deg
+        ,#dfb351 20%,#e8c56b 50%,#c69638 80%);
+        font-weight: 400;
+        color: #fff;
+        font-family: Hind,sans-serif;
+        padding: 5px 18px;
+        border: none;
+        border-radius: 5px;
+}

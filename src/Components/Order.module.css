@@ -1,0 +1,28 @@
+.order {
+    margin: 20px;
+    text-align: left;
+    border: 2px solid  ;
+    border-color: #26539c;
+    padding: 20px;
+}
+.data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.data h5 {
+min-width:200px ;
+}
+.pro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.order button {
+    border: none;
+    padding: 10px;
+    background-color: rgba(255, 38, 38, 0.829);
+    color: white;
+    border-radius: 10px;
+}

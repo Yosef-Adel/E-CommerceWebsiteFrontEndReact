@@ -1,0 +1,38 @@
+.container {
+    margin-top:50px;
+   width: 100%;
+}
+.form {
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    
+}
+.form label {
+    display: block;
+    text-align: left;
+    color: #0b0e2eb7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input {
+    border-radius: 5px;
+    padding: 15px;
+    border: #1e29a1 solid;
+    width: 100%;
+}
+.container label {
+    display: block;
+   
+}
+.container Button {
+    display: block;
+    padding: 10px;
+    margin: 20px auto;
+ 
+}
+.container span {
+    color: red;
+}

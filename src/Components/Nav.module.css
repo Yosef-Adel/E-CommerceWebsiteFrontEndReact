@@ -1,0 +1,85 @@
+.nav {
+    background-color: #173667;
+    padding: 15px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav div {
+    color: #777;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    color: #777;
+}
+.nav button {
+    background-color: #17366700;
+    border: none;
+    color: whitesmoke;
+}
+.links {
+    padding-top: 20px;
+    list-style: none;
+    border: .5px rgba(119, 119, 119, 0.233) solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+.links li {
+    padding: 10px;
+}
+.links li:hover {
+    background-color: rgba(141, 140, 140, 0.103);
+    border-radius: 10px;
+}
+
+.brand {
+    width: 50%;
+    max-width: 200px;
+}
+
+
+.brand img {
+    width: 100%;
+}
+
+.cartIcon {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Items {
+    width: 200px;
+   
+}
+.Items a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    
+}
+.cart {
+    display: none;
+}
+
+
+
+@media screen and (max-width:750px ) {
+    .cart{
+        display: block;
+    }
+    .Items{
+        display: none;
+    }
+}
